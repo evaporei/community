@@ -1,0 +1,16 @@
+list: user.system_paths
+hostname: iseatz
+-
+user: /Users/evaporei
+desktop: /Users/evaporei/Desktop
+desk: /Users/evaporei/Desktop
+documents: /Users/evaporei/Documents
+docks: /Users/evaporei/Documents
+downloads: /Users/evaporei/Downloads
+music: /Users/evaporei/Music
+pictures: /Users/evaporei/Pictures
+videos: /Users/evaporei/Videos
+talon home: /Users/evaporei/.talon
+talon recordings: /Users/evaporei/.talon/recordings
+talon user: /Users/evaporei/.talon/user
+home: /Users/evaporei
