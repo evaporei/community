@@ -64,15 +64,25 @@ state (some | sum): "Some"
 state static: "static "
 self taught: "self."
 state use: user.code_import()
+state test case: "#[test]"
+    key(enter)
+    "fn t() {"
+    key(enter)
+    "}"
 
 use <user.code_libraries>:
     user.code_insert_library(code_libraries, "")
     key(enter)
 
+# doesn't work
+library <user.code_libraries>: user.code_insert_library(code_libraries, "")
+
 ## specialist flow control
 state if let some: user.insert_between("if let Some(", ")")
 state if let (ok | okay): user.insert_between("if let Ok(", ")")
 state if let error: user.insert_between("if let Err(", ")")
+state fish: user.insert_between("::<",">")
+
 
 ## rust centric synonyms
 is some: user.code_insert_is_not_null()

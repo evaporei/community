@@ -106,6 +106,7 @@ all_types = {
 
 standard_function_macros = {
     "panic": "panic!",
+    "unreachable": "unreachable!",
     "format": "format!",
     "concatenate": "concat!",
     "print": "print!",
