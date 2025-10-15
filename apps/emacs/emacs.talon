@@ -126,7 +126,7 @@ split widen [<number_small>]:
     user.emacs("enlarge-window-horizontally", number_small or 1)
 split narrow [<number_small>]:
     user.emacs("shrink-window-horizontally", number_small or 1)
-
+split right: user.split_window_right()
 # ----- HELP ----- #
 apropos: user.emacs_help("a")
 describe (fun | function): user.emacs_help("f")
@@ -183,6 +183,64 @@ buffer narrow | [buffer] narrow to region: user.emacs("narrow-to-region")
 diff (buffer | [buffer] with file):
     user.emacs("diff-buffer-with-file")
     key(enter)
+take line:
+     key(d)
+     key(d)
+# it doesn't work
+visual start:
+    key(shift)
+    key(v)
+# it doesn't work
+visual edit:
+    key(control)
+    key(v)
+my get:
+    key(space)
+    key(g)
+get status:
+    key(space)
+    key(g)
+    key(s)
+get stage:
+    key(s)
+get unstage:
+    key(u)
+    key(s)
+get commit:
+    key(c)
+    key(c)
+get get:
+    key(shift)
+    key(f)
+    key(p)
+# needs delay
+get red pull:
+    key(shift)
+    key(f)
+    key(r)
+    key(p)
+get push:
+    key(p)
+    key(p)
+# it doesn't work
+get escape:
+    key(control)
+    key(g)
+
+# my get: user.magit()
+# get status: user.magit_status()
+
+my tree:
+   key(space)
+   key(p)
+   key(t)
+
+my project:
+   key(space)
+   key(p)
+   key(p)
+
+
 
 # ----- MOTION AND EDITING ----- #
 mark: user.emacs("set-mark-command")
