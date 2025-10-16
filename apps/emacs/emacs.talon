@@ -197,6 +197,10 @@ visual edit:
 my get:
     key(space)
     key(g)
+get init:
+    key(space)
+    key(g)
+    key(i)
 get status:
     key(space)
     key(g)
@@ -240,6 +244,7 @@ my project:
    key(p)
    key(p)
 
+collapse projects: user.emacs("treemacs-collapse-all-projects")
 
 
 # ----- MOTION AND EDITING ----- #
