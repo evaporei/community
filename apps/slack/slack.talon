@@ -2,6 +2,7 @@ app: slack
 -
 tag(): user.messaging
 tag(): user.emoji
+tag(): user.directional
 
 # Workspace
 workspace <number>: user.slack_open_workspace(number)
