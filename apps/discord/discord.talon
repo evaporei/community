@@ -2,6 +2,7 @@ app: discord
 -
 tag(): user.messaging
 tag(): user.emoji
+tag(): user.directional
 
 # Navigation: QuickSwitcher
 {user.discord_destination} [<user.text>]:

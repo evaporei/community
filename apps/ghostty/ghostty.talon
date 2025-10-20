@@ -8,6 +8,7 @@ tag(): user.generic_unix_shell
 tag(): user.git
 tag(): user.tabs
 tag(): user.readline
+tag(): user.directional
 
 jelly:
   key(j)
