@@ -1,8 +1,8 @@
 tag: user.directional
 -
-ray | east:
+ray:
   key(right)
-let | west:
+reft | raft:
   key(left)
 bob | north:
   key(up)

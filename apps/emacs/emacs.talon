@@ -18,6 +18,12 @@ evaluate | (evaluate | eval) (exper | expression): user.emacs("eval-expression")
 prefix: user.emacs_prefix()
 prefix <user.number_signed_small>: user.emacs_prefix(number_signed_small)
 
+compiler errors:
+  key(space)
+  key(m)
+  key(g)
+  key(e)
+
 abort recursive [edit]: user.emacs("abort-recursive-edit")
 browse kill ring: user.emacs("browse-kill-ring")
 fill paragraph: user.emacs("fill-paragraph")
