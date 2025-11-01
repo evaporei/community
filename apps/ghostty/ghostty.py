@@ -15,6 +15,12 @@ app: ghostty
 directories_to_remap = {}
 directories_to_exclude = {}
 
+# doesn't work
+@mod.action_class
+class Actions:
+    def jelly():
+        actions.insert("jj ")
+        # actions.key("j-j")
 
 @ctx.action_class("user")
 class UserActions:

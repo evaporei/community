@@ -11,9 +11,9 @@ tag(): user.readline
 tag(): user.directional
 
 jelly:
-  key(j)
-  key(j)
-  key(space)
+  insert("jj ")
+#  user.jelly()
+#  user.actions.jelly()
 
 jew:
   key(j)
@@ -24,6 +24,7 @@ jew:
   key(w)
   key(space)
 
+# genesis
 ja nessus:
   key(j)
   key(j)
