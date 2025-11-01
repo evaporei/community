@@ -17,7 +17,7 @@ byte-recompile-file
 clear-rectangle, ctrl-x r c
 clone-indirect-buffer,, clo-i
 comment-dwim, meta-;
-comment-line,, comment-l
+comment-line,ctrl-x ctrl-;
 comment-region, ctrl-c ;
 compile
 compile-defun,, co-def

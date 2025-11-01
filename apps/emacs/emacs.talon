@@ -105,10 +105,6 @@ transient mark mode: user.emacs("transient-mark-mode")
 visual line mode: user.emacs("visual-line-mode")
 whitespace mode: user.emacs("whitespace-mode")
 
-# MACROS #
-emacs record: user.emacs("kmacro-start-macro")
-emacs stop: user.emacs("kmacro-end-macro")
-emacs play: user.emacs("kmacro-end-and-call-macro")
 
 # PROFILER #
 profiler start: user.emacs("profiler-start")
@@ -190,18 +186,12 @@ buffer narrow | [buffer] narrow to region: user.emacs("narrow-to-region")
 diff (buffer | [buffer] with file):
     user.emacs("diff-buffer-with-file")
     key(enter)
-take line:
-     key(d)
-     key(d)
-# it doesn't work
-visual start:
-    key(shift)
-    key(v)
-# it doesn't work
-visual edit:
-    key(control)
-    key(v)
+
+take line: insert("dd")
+visual start: insert("V")
+visual edit: key(ctrl-v)
 my get:
+   user.emacs_key(
     key(space)
     key(g)
 get init:
@@ -221,22 +211,19 @@ get commit:
     key(c)
     key(c)
 get get:
-    key(shift)
-    key(f)
+    insert("F")
     key(p)
 # needs delay
 get red pull:
-    key(shift)
-    key(f)
+    insert("F")
     key(r)
     key(p)
 get push:
     key(p)
     key(p)
 # it doesn't work
-get escape:
-    key(control)
-    key(g)
+my bad:
+    key(ctrl-g)
 
 # my get: user.magit()
 # get status: user.magit_status()
@@ -435,3 +422,31 @@ outline demote: user.emacs("outline-demote")
 outline move [subtree] down: user.emacs("outline-move-subtree-down")
 outline move [subtree] up: user.emacs("outline-move-subtree-up")
 outline mark [subtree]: user.emacs("outline-mark-subtree")
+
+workspace disk:
+       key(space)
+       key(l)
+       key(s)
+
+workspace load:
+       key(space)
+       key(l)
+       insert("L")
+
+workspace switch:
+       key(space)
+       key(l)
+
+comment line:
+   user.emacs("comment-line")
+
+pomodoro:
+  key(,)
+  insert("C")
+  key(p)
+
+emacs (refresh | reload):
+      key(space)
+      key(f)
+      key(e)
+      insert("R")
