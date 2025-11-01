@@ -19,6 +19,7 @@ directories_to_exclude = {}
 @mod.action_class
 class Actions:
     def jelly():
+        """doc string"""
         actions.insert("jj ")
         # actions.key("j-j")
 

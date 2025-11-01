@@ -11,8 +11,8 @@ tag(): user.readline
 tag(): user.directional
 
 jelly:
-  insert("jj ")
-#  user.jelly()
+#  insert("jj ")
+  user.jelly()
 #  user.actions.jelly()
 
 jew:
