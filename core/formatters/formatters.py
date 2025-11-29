@@ -190,6 +190,17 @@ class SpongeFormatter(Formatter):
         return unformat_upper(text)
 
 
+class GingerFormatter(Formatter):
+    def format(self, text: str) -> str:
+        """Title case with underscores instead of spaces"""
+        words = [x for x in re.split(r"(\s+)", text) if x and not x.isspace()]
+        words = [word.capitalize() for word in words]
+        return "_".join(words)
+
+    def unformat(self, text: str) -> str:
+        return remove_code_formatting(text)
+
+
 def capitalize_first(text: str) -> str:
     stripped = text.lstrip()
     prefix = text[: len(text) - len(stripped)]
@@ -252,6 +263,7 @@ formatter_list = [
     # This is the formatter that actually just capitalizes the first word
     CapitalizeFormatter("CAPITALIZE"),
     SpongeFormatter("SPONGE"),
+    GingerFormatter("GINGER"),
     CodeFormatter("NO_SPACES", "", lower, lower),
     CodeFormatter("PRIVATE_CAMEL_CASE", "", lower, capitalize),
     CodeFormatter("PUBLIC_CAMEL_CASE", "", capitalize, capitalize),
