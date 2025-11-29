@@ -40,3 +40,5 @@ jared: insert("jj edit ")
 jape: insert("jj edit @-")
 
 janette: insert("jj edit @+")
+
+cloud: insert("claude\n")
