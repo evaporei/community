@@ -1,0 +1,7 @@
+list: user.cargo_argument
+-
+workspace: --workspace
+bin: --bin
+lib: --lib
+package: --package
+tests: --tests

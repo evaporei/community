@@ -1,0 +1,16 @@
+list: user.cargo_command
+-
+build
+check
+add
+format: fmt
+test
+new
+clean
+install
+uninstall
+format all: fmt-all
+test unit: test-unit
+lint
+sqlx prepare: sqlx-prepare
+insta review
