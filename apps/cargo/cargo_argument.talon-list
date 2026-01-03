@@ -5,3 +5,5 @@ bin: --bin
 lib: --lib
 package: --package
 tests: --tests
+release: --release
+debug: --debug
