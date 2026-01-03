@@ -18,6 +18,8 @@ gc
 grep
 help
 in it: init
+jelly: nn
+jelly origin main: nn origin main
 log
 ls files: ls-files
 merge
