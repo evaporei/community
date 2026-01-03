@@ -7,6 +7,7 @@ tag(): terminal
 tag(): user.generic_unix_shell
 tag(): user.git
 tag(): user.cargo
+tag(): user.odin
 tag(): user.tabs
 tag(): user.readline
 tag(): user.directional

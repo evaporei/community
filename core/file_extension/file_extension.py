@@ -55,6 +55,11 @@ _file_extensions_defaults = {
     "dot java": ".java",
     "dot class": ".class",
     "dot log": ".log",
+    "dot rust": ".rs",
+    "dot rs": ".rs",
+    "dot R S": ".rs",
+    "dot are as": ".rs",
+    "dot odin": ".odin",
 }
 
 ctx = Context()

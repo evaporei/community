@@ -3,7 +3,7 @@ list: user.cargo_argument
 workspace: --workspace
 bin: --bin
 lib: --lib
-package: --package
+package: -p
 tests: --tests
 release: --release
 debug: --debug

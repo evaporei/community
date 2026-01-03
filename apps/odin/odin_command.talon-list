@@ -1,0 +1,5 @@
+list: user.odin_command
+-
+test
+build
+run

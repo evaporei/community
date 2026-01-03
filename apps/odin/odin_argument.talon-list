@@ -1,0 +1,14 @@
+list: user.odin_argument
+-
+help: -help
+file: -file
+debug: -debug
+collection studio: -collection:studio=/Users/evaporei/studio
+speed: -o:speed
+optimize none: -o:none
+define: -define:
+vet: -vet
+strict style: -strict-style
+show timings: -show-timings
+show more timings: -show-more-timings
+build mode shared: -build-mode:shared
