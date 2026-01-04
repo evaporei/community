@@ -1,0 +1,17 @@
+list: user.jj_argument
+-
+head: @
+previous: @-
+next: @+
+revision: -r
+message: -m
+source: -s
+destination: -d
+from: -f
+to: -t
+at origin: @origin
+main
+master
+upstream
+origin main: main@origin
+origin master: master@origin

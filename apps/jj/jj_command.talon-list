@@ -1,0 +1,25 @@
+list: user.jj_command
+-
+new
+diff
+log
+show
+abandon
+status
+edit
+restore
+split
+evolog
+commit
+describe
+squash
+rebase
+undo: op revert
+op log
+op restore
+branch: b
+branch track: b t
+branch set: b s
+branch delete: b d
+branch list: b l
+branch forget: b f

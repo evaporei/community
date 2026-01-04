@@ -7,6 +7,7 @@ tagList = [
     "disassembler",
     "git",  # commandline tag for git commands
     "ida",
+    "jj",  # commandline tag for jujutsu commands
     "odin",  # commandline tag for odin commands
     "tabs",
     "generic_windows_shell",

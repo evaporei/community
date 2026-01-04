@@ -13,6 +13,7 @@ tag(): user.generic_unix_shell
 # you can deactivate them if you do not use the application
 tag(): user.git
 tag(): user.cargo
+tag(): user.jj
 tag(): user.odin
 tag(): user.anaconda
 tag(): user.kubectl
