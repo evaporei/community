@@ -1,0 +1,7 @@
+list: user.npm_argument
+-
+global: --global
+save dev: --save-dev
+fix: --fix
+save: --save
+help: --help

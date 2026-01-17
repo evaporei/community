@@ -8,6 +8,7 @@ tagList = [
     "git",  # commandline tag for git commands
     "ida",
     "jj",  # commandline tag for jujutsu commands
+    "npm",  # commandline tag for npm commands
     "odin",  # commandline tag for odin commands
     "tabs",
     "generic_windows_shell",

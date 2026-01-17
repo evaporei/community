@@ -1,0 +1,16 @@
+list: user.npm_command
+-
+run
+test: test
+run build
+login
+install
+run dev
+run typegen
+run cdk local deploy
+run cdk bootstrap aws://00000000000/us-east-1
+run lint
+run format
+run prettier
+run eslint
+run deploy
