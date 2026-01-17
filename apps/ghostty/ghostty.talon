@@ -14,3 +14,4 @@ tag(): user.readline
 tag(): user.directional
 
 cloud: insert("claude\n")
+tree: insert("tree")

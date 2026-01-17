@@ -7,3 +7,4 @@ package: -p
 tests: --tests
 release: --release
 debug: --debug
+target: --target
