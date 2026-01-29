@@ -1,0 +1,13 @@
+list: user.docker_compose_command
+-
+exec
+up
+restart
+logs
+down
+volumes
+volume
+ps
+run
+build
+stop

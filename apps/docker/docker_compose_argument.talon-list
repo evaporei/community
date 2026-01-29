@@ -1,0 +1,14 @@
+list: user.docker_compose_argument
+-
+detach: -d
+help: --help
+force: -f
+tty: -t
+remove: --rm
+entrypoint: --entrypoint
+postgres
+redis
+localstack
+cdk apps: cdk-apps
+psql
+bash

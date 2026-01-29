@@ -5,6 +5,7 @@ mod = Module()
 tagList = [
     "cargo",  # commandline tag for cargo commands
     "disassembler",
+    "docker",  # commandline tag for docker commands
     "git",  # commandline tag for git commands
     "ida",
     "jj",  # commandline tag for jujutsu commands

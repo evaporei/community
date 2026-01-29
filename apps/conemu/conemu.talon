@@ -4,3 +4,4 @@ app.exe: /^conemu64\.exe$/i
 
 tag(): terminal
 tag(): user.git
+tag(): user.docker

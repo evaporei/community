@@ -1,0 +1,10 @@
+list: user.docker_argument
+-
+all: -a
+volumes: --volumes
+help: --help
+follow: -f
+quiet: -q
+postgres
+redis
+localstack

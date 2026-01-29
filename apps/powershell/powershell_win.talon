@@ -16,6 +16,7 @@ tag(): user.generic_windows_shell
 # you can deactivate them if you do not use the application
 tag(): user.git
 tag(): user.anaconda
+tag(): user.docker
 # tag(): user.kubectl
 
 tag(): user.file_manager

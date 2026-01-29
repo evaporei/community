@@ -1,0 +1,12 @@
+list: user.docker_command
+-
+exec
+logs
+ps
+rm
+rmi
+stop
+volume
+volume rm: "volume rm"
+volume list: "volume ls"
+system prune: "system prune"
