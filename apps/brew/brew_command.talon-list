@@ -1,0 +1,5 @@
+list: user.brew_command
+-
+install
+upgrade
+cask

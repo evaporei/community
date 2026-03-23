@@ -10,6 +10,7 @@ tag(): user.cargo
 tag(): user.docker
 tag(): user.jj
 tag(): user.npm
+tag(): user.brew
 tag(): user.odin
 tag(): user.tabs
 tag(): user.readline

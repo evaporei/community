@@ -16,6 +16,7 @@ tag(): user.cargo
 tag(): user.docker
 tag(): user.jj
 tag(): user.npm
+tag(): user.brew
 tag(): user.odin
 tag(): user.anaconda
 tag(): user.kubectl

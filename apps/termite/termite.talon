@@ -7,6 +7,7 @@ and not win.title: /VIM/
 tag(): user.kubectl
 tag(): user.git
 tag(): user.docker
+tag(): user.brew
 tag(): user.taskwarrior
 tag(): terminal
 

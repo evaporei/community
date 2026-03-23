@@ -1,0 +1,3 @@
+list: user.brew_argument
+-
+cask: --cask
