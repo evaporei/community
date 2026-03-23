@@ -1,0 +1,62 @@
+{
+	"mouth_wink": {
+		"sounds": [
+			"mouth wink"
+		],
+		"threshold": {
+			">power": 1,
+			">probability": 0.7
+		},
+		"throttle": {
+			"mouth_wink": 0.120
+		}
+	},
+	"rawr": {
+		"sounds": [
+			"rawr"
+		],
+		"threshold": {
+			">power": 1,
+			">probability": 0.7
+		},
+		"throttle": {
+			"rawr": 0.200
+		}
+	},
+	"smooch": {
+		"sounds": [
+			"smooch"
+		],
+		"threshold": {
+			">power": 1,
+			">probability": 0.7
+		},
+		"throttle": {
+			"smooch": 0.120
+		}
+	},
+	"trot": {
+		"sounds": [
+			"trot"
+		],
+		"threshold": {
+			">power": 1,
+			">probability": 0.7
+		},
+		"throttle": {
+			"trot": 0.120
+		}
+	},
+	"pop": {
+		"sounds": [
+			"pop"
+		],
+		"threshold": {
+			">power": 1,
+			">probability": 0.7
+		},
+		"throttle": {
+			"pop": 0.120
+		}
+	}
+}

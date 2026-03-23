@@ -1,0 +1,122 @@
+{
+  "dog_bell": {
+    "sounds": [
+      "dog bell"
+    ],
+    "threshold": {
+      ">power": 1,
+      ">probability": 0.7
+    },
+    "throttle": {
+      "dog_bell": 0.120
+    }
+  },
+  "mouth_smack": {
+    "sounds": [
+      "mouth smack"
+    ],
+    "threshold": {
+      ">power": 1,
+      ">probability": 0.7
+    },
+    "throttle": {
+      "mouth_smack": 0.120
+    }
+  },
+  "mouth_wink": {
+    "sounds": [
+      "mouth wink"
+    ],
+    "threshold": {
+      ">power": 1,
+      ">probability": 0.7
+    },
+    "throttle": {
+      "mouth_wink": 0.120
+    }
+  },
+  "pop": {
+    "sounds": [
+      "pop"
+    ],
+    "threshold": {
+      ">power": 1,
+      ">probability": 0.7
+    },
+    "throttle": {
+      "pop": 0.120
+    }
+  },
+  "pst": {
+    "sounds": [
+      "pst"
+    ],
+    "threshold": {
+      ">power": 1,
+      ">probability": 0.7
+    },
+    "throttle": {
+      "pst": 0.120
+    }
+  },
+  "rawr": {
+    "sounds": [
+      "rawr"
+    ],
+    "threshold": {
+      ">power": 1,
+      ">probability": 0.7
+    },
+    "throttle": {
+      "rawr": 0.120
+    }
+  },
+  "smooch": {
+    "sounds": [
+      "smooch"
+    ],
+    "threshold": {
+      ">power": 1,
+      ">probability": 0.7
+    },
+    "throttle": {
+      "smooch": 0.120
+    }
+  },
+  "suck_teeth": {
+    "sounds": [
+      "suck teeth"
+    ],
+    "threshold": {
+      ">power": 1,
+      ">probability": 0.7
+    },
+    "throttle": {
+      "suck_teeth": 0.120
+    }
+  },
+  "thhk": {
+    "sounds": [
+      "thhk"
+    ],
+    "threshold": {
+      ">power": 1,
+      ">probability": 0.7
+    },
+    "throttle": {
+      "thhk": 0.120
+    }
+  },
+  "trot": {
+    "sounds": [
+      "trot"
+    ],
+    "threshold": {
+      ">power": 1,
+      ">probability": 0.7
+    },
+    "throttle": {
+      "trot": 0.120
+    }
+  }
+}
