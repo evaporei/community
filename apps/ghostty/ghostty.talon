@@ -19,3 +19,5 @@ tag(): user.directional
 cloud: insert("claude\n")
 codex: insert("codex")
 tree: insert("tree")
+make directory: insert("mkdir ")
+history: insert("history ")
