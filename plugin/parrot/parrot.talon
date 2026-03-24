@@ -13,10 +13,21 @@ parrot(smooch):
 	print("smooch")
 
 parrot(trot):
-	print("trot")
+	    # close zoom if open
+    tracking.zoom_cancel()
+    mouse_click(0)
+    # close the mouse grid if open
+    user.grid_close()
+    # End any open drags
+    # Touch automatically ends left drags so this is for right drags specifically
+    user.mouse_drag_end()
 	
 parrot(mouth_wink):
 	print("mouth_wink")
 		
 parrot(pop):
-	print("pop")
+	    # close zoom if open
+    tracking.zoom_cancel()
+    mouse_click(1)
+    # close the mouse grid if open
+    user.grid_close()
